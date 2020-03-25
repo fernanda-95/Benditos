@@ -1,0 +1,383 @@
+/* NAV*/
+
+nav{
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+}
+.navbar-nav a{
+  color: gray;
+  font-size: 1.1em;
+  font-weight: 400;
+  font-family: 'helvetica neue', sans-serif;
+}
+
+.navbar-brand{
+  margin: .5em;
+}
+
+.navbar-nav li :hover{
+  background-color: #F08080;
+  color: aliceblue;
+}
+
+/*NAV*/
+
+.img_inicio{
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+
+/*FOOTER*/
+
+footer{
+  padding: 2em;
+  text-align:center;
+}
+
+footer p{
+  margin: 0;
+  font-family: 'Baloo Da 2', cursive;
+  font-weight: 400;
+}
+footer a{
+  color:mediumorchid;
+  font-weight: 500;
+  font-size: 1.5em;
+  margin: .3em;
+}
+
+/*FOOTER*/
+
+/*CARDS INDEX*/
+
+.section__cards_principal{
+  margin: 2em;
+  border: 1em solid white;
+  max-width: 100%;
+}
+
+.section__cards{
+  margin: auto;
+  max-width: 100%;
+  background-color: #D8BFD8;
+}
+
+.section__cards h2{
+  font-family: 'Baloo 2', cursive;
+  letter-spacing: 3px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-top: 2em;
+  margin-bottom: .5em;
+  text-align: center;
+}
+
+.wrapper {
+   width: 100vw;
+   margin: 0 auto;
+   height: 400px;
+   background-color: #E6E6FA;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   transition: all 0.3s ease;
+}
+
+@media screen and (min-width: 767px) {
+   .wrapper {
+      height: 700px;
+   }
+}
+
+.card_content {
+   max-width: 1024px;
+   width: 100%;
+   padding: 1em;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .section__cards_principal{
+    margin: .5em;
+    border: 1em solid white;
+    max-width: 100%;
+  }
+
+   .card_content {
+      padding-top: 1em;
+      flex-direction: column;
+   }
+
+   .card {
+      max-width: 100%;
+      height: 250px;
+      background-color: #FFE4E1;
+      margin: 10px;
+      border-radius: 10px;
+      box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
+      border: 2px solid #FFE4E1;
+      font-size: 16px;
+      transition: all 0.3s ease;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      cursor: pointer;
+      transition: all 0.3s ease;
+   }
+}
+
+.card {
+   width: 100vw;
+   height: 250px;
+   background-color: #FFE4E1;
+   margin: 10px;
+   border-radius: 10px;
+   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.24);
+   border: 2px solid #FFE4E1;
+   font-size: 16px;
+   transition: all 0.3s ease;
+   position: relative;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   cursor: pointer;
+   transition: all 0.3s ease;
+}
+
+.card_icon {
+   margin: 0 auto;
+   width: 100%;
+   height: 80px;
+   max-width:80px;
+   background: linear-gradient(90deg, #9370DB 0%, #9400D3 40%, #8B008B 60%);
+   border-radius: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   transition: all 0.8s ease;
+   background-position: 0px;
+   background-size: 200px;
+}
+
+.card_material__icons.md-18 { font-size: 18px; }
+.card_material__icons.md-24 { font-size: 24px; }
+.card_material__icons.md-36 { font-size: 36px; }
+.card_material__icons.md-48 { font-size: 48px; }
+
+.card .card_title {
+   width: 100%;
+   margin: 0;
+   text-align: center;
+   margin-top: 30px;
+   color: #8B008B;
+   font-weight: 600;
+   text-transform: uppercase;
+   letter-spacing: 2px;
+}
+
+.card .card_text {
+   width: 80%;
+   margin: 0 auto;
+   font-size: 14px;
+   font-family: 'Baloo 2', cursive;
+   text-align: center;
+   margin-top: 20px;
+   color: #663399;
+   font-weight: 200;
+   letter-spacing: 1px;
+   opacity: 0;
+   max-height:0;
+   transition: all 0.3s ease;
+}
+
+.card:hover {
+   height: 270px;
+}
+
+.card:hover .info {
+   height: 90%;
+}
+
+.card:hover .card_text {
+   transition: all 0.3s ease;
+   opacity: 1;
+   max-height:40px;
+}
+
+.card:hover .card_icon {
+   background-position: -120px;
+   transition: all 0.3s ease;
+}
+
+.card:hover .card_icon i {
+   background: linear-gradient(90deg, #E6E6FA, #D8BFD8);
+   -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+   opacity: 1;
+   transition: all 0.3s ease;
+}
+
+/*CARDS INDEX*/
+
+/*QUIENES CARDS*/
+
+@media (max-width: 767px) {
+
+.quienes__body{
+  margin: 2em;
+  text-align: center;
+}
+
+.quienes__container{
+  width: 85%;
+  margin: 2em;
+  background-color: #ADD8E6;
+  border: 2em solid #ADD8E6;
+}
+
+.quienes__info p{
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.quienes__info_image{
+  width: 65%;
+  margin: auto;
+  padding: .5em;
+}
+}
+
+@media (min-width: 768px) {
+
+.quienes__body{
+  margin: 2em;
+  text-align: center;
+}
+
+.quienes__container{
+  width: 44%;
+  margin: 2em;
+  background-color: #ADD8E6;
+  border: 2em solid #ADD8E6;
+}
+
+.quienes__info p{
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.quienes__info span{
+  margin: 3em;
+}
+.quienes__info_image{
+  width: 58%;
+  margin:auto;
+  padding: .5em;
+}
+}
+/*QUIENES CARDS*/
+
+
+/*CARDS PORTAFOLIO*/
+
+* {
+	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*:focus {
+  outline: 0;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	position: relative;
+	transform-style: preserve-3d;
+  max-width: 100%;
+}
+
+.container .box {
+	height: 400px;
+	margin: 20px 0;
+	overflow: hidden;
+	perspective: 1000px;
+	position: relative;
+	transform-style: preserve-3d;
+	width: 300px;
+  border: 4px solid #F5F5F5;
+  border-radius: 3%;
+}
+
+.container .box .img-box {
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	transform-origin: top;
+	transform-style: preserve-3d;
+	transition: opacity 0.5s 0.2s ease-in-out,
+							transform 0.5s 0.2s ease-in-out;
+	width: 100%;
+}
+
+.container .box:hover .img-box,
+.container .box:focus .img-box,
+.container .box:active .img-box {
+	opacity: 0;
+	transform: rotateX(-90deg);
+	transition-delay: 0s;
+}
+
+.container .box .img-box img {
+	height: 100%;
+	left: 0;
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.container .box .content-box {
+	align-items: center;
+	background-color: #008080;
+	color: #ffffff;
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	left: 0;
+	opacity: 0;
+	padding: 1em;
+	position: absolute;
+	top: 0;
+	transform: rotateX(90deg);
+	transform-origin: bottom;
+	transform-style: preserve-3d;
+	transition: opacity 0.5s ease-in-out,
+							transform 0.5s ease-in-out;
+	width: 100%;
+}
+
+.container .box:hover .content-box,
+.container .box:focus .content-box,
+.container .box:active .content-box {
+	opacity: 1;
+	transform: rotateX(0);
+	transition-delay: 0.2s;
+}
+/*CARDS PORTAFOLIO*/
