@@ -4,8 +4,10 @@ nav{
   justify-content: space-between;
   background-color: #fff;
   padding: 0;
-  margin: 0;
+  margin-left: 1em;
+  margin-right: 1em;
 }
+
 .navbar-nav a{
   color: gray;
   font-size: 1.1em;
@@ -18,8 +20,8 @@ nav{
 }
 
 .navbar-nav li :hover{
-  background-color: #F08080;
-  color: aliceblue;
+  background-color: #f69a9a;
+  padding: .5em;
 }
 
 /*NAV*/
@@ -65,7 +67,7 @@ footer a{
 .section__cards{
   margin: auto;
   max-width: 100%;
-  background-color: #D8BFD8;
+  background-color: #dec7de;
 }
 
 .section__cards h2{
@@ -92,7 +94,7 @@ footer a{
 
 @media screen and (min-width: 767px) {
    .wrapper {
-      height: 700px;
+      height: 600px;
    }
 }
 
@@ -107,6 +109,11 @@ footer a{
 }
 
 @media screen and (max-width: 767px) {
+
+.section__cards h2{
+  font-size: 1.2em;
+  letter-spacing: 2px;
+}
   .section__cards_principal{
     margin: .5em;
     border: 1em solid white;
@@ -120,7 +127,7 @@ footer a{
 
    .card {
       max-width: 100%;
-      height: 250px;
+      height: 5em;
       background-color: #FFE4E1;
       margin: 10px;
       border-radius: 10px;
@@ -245,8 +252,8 @@ footer a{
 .quienes__container{
   width: 85%;
   margin: 2em;
-  background-color: #ADD8E6;
-  border: 2em solid #ADD8E6;
+  background-color: #b6deeb;
+  border: 2em solid #b6deeb;
 }
 
 .quienes__info p{
@@ -271,8 +278,8 @@ footer a{
 .quienes__container{
   width: 44%;
   margin: 2em;
-  background-color: #ADD8E6;
-  border: 2em solid #ADD8E6;
+  background-color: #b6deeb;
+  border: 2em solid #b6deeb;
 }
 
 .quienes__info p{
@@ -313,10 +320,10 @@ footer a{
 }
 
 .container .box {
-	height: 400px;
+	height: 340px;
 	margin: 20px 0;
 	overflow: hidden;
-	perspective: 1000px;
+	perspective: 900px;
 	position: relative;
 	transform-style: preserve-3d;
 	width: 300px;
@@ -355,7 +362,7 @@ footer a{
 
 .container .box .content-box {
 	align-items: center;
-	background-color: #008080;
+	background-color: #0a9292;
 	color: #ffffff;
 	display: flex;
 	height: 100%;
@@ -381,3 +388,43 @@ footer a{
 	transition-delay: 0.2s;
 }
 /*CARDS PORTAFOLIO*/
+
+/*CARDS AREAS*/
+
+/*CARDS AREAS*/
+
+/*FORMULARIO DE CONTACTO*/
+
+form{
+  background-color: #ecb5df;
+  max-width: 100%;
+  padding: 2em;
+  margin: 2em;
+  flex-direction: column;
+  display: flex;
+}
+
+form h2{
+  font-size: 1.5em;
+  text-align: center;
+}
+
+button{
+ background-color: SLATEBLUE;
+ border: 1px solid SLATEBLUE;
+ color: #fff;
+ width: 5em;
+ margin: .5em;
+}
+
+textarea{
+  margin: .4em;
+  padding: .4em;
+}
+
+input{
+  margin: .4em;
+  padding: .4em;
+}
+
+/*FORMULARIO DE CONTACTO*/
