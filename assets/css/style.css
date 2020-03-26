@@ -4,8 +4,6 @@ nav{
   justify-content: space-between;
   background-color: #fff;
   padding: 0;
-  margin-left: 1em;
-  margin-right: 1em;
 }
 
 .navbar-nav a{
@@ -13,6 +11,7 @@ nav{
   font-size: 1.1em;
   font-weight: 400;
   font-family: 'helvetica neue', sans-serif;
+  margin: .3em;
 }
 
 .navbar-brand{
@@ -115,8 +114,8 @@ footer a{
   letter-spacing: 2px;
 }
   .section__cards_principal{
-    margin: .5em;
-    border: 1em solid white;
+    margin: .6em;
+    border: .7em solid white;
     max-width: 100%;
   }
 
@@ -245,6 +244,7 @@ footer a{
 @media (max-width: 767px) {
 
 .quienes__body{
+  max-width: 100%;
   margin: 2em;
   text-align: center;
 }
@@ -295,6 +295,7 @@ footer a{
   padding: .5em;
 }
 }
+
 /*QUIENES CARDS*/
 
 
@@ -389,9 +390,6 @@ footer a{
 }
 /*CARDS PORTAFOLIO*/
 
-/*CARDS AREAS*/
-
-/*CARDS AREAS*/
 
 /*FORMULARIO DE CONTACTO*/
 
@@ -410,8 +408,9 @@ form h2{
 }
 
 button{
- background-color: SLATEBLUE;
- border: 1px solid SLATEBLUE;
+ background-color: #8c6ad3;
+ border: 4px #7947ab;
+ border-style: outset;
  color: #fff;
  width: 5em;
  margin: .5em;
@@ -427,4 +426,45 @@ input{
   padding: .4em;
 }
 
+#boton:hover{
+  cursor:pointer;
+}
 /*FORMULARIO DE CONTACTO*/
+
+/*CARDS AREA*/
+
+.container__card_area{
+  margin: auto;
+  max-width: 100%;
+}
+
+.cards_area{
+  background-color: #c483c4;
+  border: 1px solid black;
+  padding: 2em;
+  margin: 1em;
+  color: white;
+  width: 30%;
+  border-style: outset;
+  border: 6px outset #BA55D3;
+}
+
+@media (max-width: 768px) {
+  .container__card_area{
+    margin: auto;
+    max-width: 100%;
+  }
+
+  .cards_area{
+    background-color: #c483c4;
+    border: 1px solid black;
+    padding: 2em;
+    margin: 1em;
+    color: white;
+    width: 100%;
+    border-style: outset;
+    border: 6px outset #BA55D3;
+  }
+}
+
+/*CARDS AREA*/
