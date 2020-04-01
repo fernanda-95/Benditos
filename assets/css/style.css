@@ -4,14 +4,14 @@ nav{
   justify-content: space-between;
   background-color: #fff;
   padding: 0;
+  margin-right: .5em;
 }
 
 .navbar-nav a{
   color: gray;
-  font-size: 1.1em;
-  font-weight: 400;
-  font-family: 'helvetica neue', sans-serif;
-  margin: .3em;
+  font-size: 1.2em;
+  font-family: 'helvetica', sans-serif;
+  margin-right: .3em;
 }
 
 .navbar-brand{
@@ -20,8 +20,10 @@ nav{
 
 .navbar-nav li :hover{
   background-color: #f69a9a;
-  padding: .5em;
+  padding: .4em;
+  font-size: 1.3em;
 }
+
 
 /*NAV*/
 
@@ -70,9 +72,8 @@ footer a{
 }
 
 .section__cards h2{
-  font-family: 'Baloo 2', cursive;
+  font-family: 'Abel', sans-serif;
   letter-spacing: 3px;
-  font-weight: 500;
   text-transform: uppercase;
   margin-top: 2em;
   margin-bottom: .5em;
@@ -110,6 +111,7 @@ footer a{
 @media screen and (max-width: 767px) {
 
 .section__cards h2{
+  font-family: 'Abel', sans-serif;
   font-size: 1.2em;
   letter-spacing: 2px;
 }
@@ -252,8 +254,9 @@ footer a{
 .quienes__container{
   width: 85%;
   margin: 2em;
+  padding: 1em;
   background-color: #b6deeb;
-  border: 2em solid #b6deeb;
+  border: 8px outset #b6deeb;
 }
 
 .quienes__info p{
@@ -278,8 +281,9 @@ footer a{
 .quienes__container{
   width: 44%;
   margin: 2em;
+  padding: 1em;
   background-color: #b6deeb;
-  border: 2em solid #b6deeb;
+  border: 10px outset #b6deeb;
 }
 
 .quienes__info p{
@@ -296,6 +300,34 @@ footer a{
 }
 }
 
+@media (min-width: 992px) {
+
+  .quienes__body{
+    margin: 2em;
+    text-align: center;
+  }
+
+  .quienes__container{
+    width: 44%;
+    margin: 2em;
+    padding: 1em;
+    background-color: #b6deeb;
+    border: 10px outset #b6deeb;
+  }
+
+  .quienes__info p{
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+  .quienes__info span{
+    margin: 3em;
+  }
+  .quienes__info_image{
+    width: 58%;
+    margin:auto;
+    padding: .5em;
+  }
+}
 /*QUIENES CARDS*/
 
 
@@ -398,6 +430,7 @@ form{
   max-width: 100%;
   padding: 2em;
   margin: 2em;
+  border: 7px outset #8B7B9B;
   flex-direction: column;
   display: flex;
 }
@@ -409,7 +442,7 @@ form h2{
 
 button{
  background-color: #8c6ad3;
- border: 4px #7947ab;
+ border: 3px #7947ab;
  border-style: outset;
  color: #fff;
  width: 5em;
@@ -435,35 +468,33 @@ input{
 
 .container__card_area{
   margin: auto;
+  justify-content: center;
   max-width: 100%;
 }
 
 .cards_area{
-  background-color: #c483c4;
-  border: 1px solid black;
+  width: 30%;
   padding: 2em;
   margin: 1em;
-  color: white;
-  width: 30%;
-  border-style: outset;
-  border: 6px outset #BA55D3;
+  color: #68203b;
+  background-color: #edd4cc;
+  border: 5px outset #d2cfcd;
 }
 
 @media (max-width: 768px) {
   .container__card_area{
     margin: auto;
     max-width: 100%;
+    justify-content: center;
   }
 
   .cards_area{
-    background-color: #c483c4;
-    border: 1px solid black;
     padding: 2em;
     margin: 1em;
-    color: white;
+    color: #68203b;
     width: 100%;
-    border-style: outset;
-    border: 6px outset #BA55D3;
+    background-color: #edd4cc;
+    border: 5px outset #d2cfcd;
   }
 }
 
