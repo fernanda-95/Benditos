@@ -430,7 +430,7 @@ form{
   max-width: 100%;
   padding: 2em;
   margin: 2em;
-  border: 7px outset #8B7B9B;
+  border: 10px outset #8B7B9B;
   flex-direction: column;
   display: flex;
 }
