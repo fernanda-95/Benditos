@@ -476,9 +476,9 @@ input{
   width: 30%;
   padding: 2em;
   margin: 1em;
-  color: #68203b;
-  background-color: #edd4cc;
-  border: 5px outset #d2cfcd;
+  color: #FFF8DC;
+  background-color: #813a7f;
+  border: 7px outset #eda6d0;
 }
 
 @media (max-width: 768px) {
